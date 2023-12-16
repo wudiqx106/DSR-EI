@@ -14,14 +14,13 @@ We follow [He et al. (Towards Fast and Accurate Real-World Depth Super-Resolutio
 ### DIML
 Download the indoor data sample from [[here]](https://dimlrgbd.github.io) and extract it into `./data/DIML/{train,test}` respectively. Then following [Learning Graph Regularisation for Guided Super-Resolution](https://github.com/prs-eth/graph-super-resolution), run `python scripts/create_diml_npy.py ./data/DIML` to create numpy binary files for faster data loading.
 
-## How to train and test (take $4\times$ as an example)
+## Train and Test (take $4\times$ as an example)
 Specify your own 'dataset_path', 'dataset', 'data_root', 'epoch' and the corresponding 'first_cycle_steps' in main.py. Then train of test the model using the following code:
 > python ./main.py --scale 4 --scratch
 
 > python ./main.py --scale 4 --test --best
 
 ## Citation
-If you use this data for your research, please cite our paper [Depth super-resolution from explicit and implicit high-frequency features](https://www.sciencedirect.com/science/article/abs/pii/S1077314223002217):
 
 ```
 @article{qiao2023depth,
