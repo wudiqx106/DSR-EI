@@ -1,7 +1,7 @@
 # DSR-EI
 This repo is the PyTorch implementation of our paper in CVIU-2023. The algorithm can be used to perform DSR-EI, and its architecture is
 
-![figure](imgs/architecture.pdf)
+![figure](imgs/architecture.png)
 
 ## Checkpoints
 All pre-trained models can be found [here](https://drive.google.com/drive/folders/1nu2xcxpHrfid1tUjplqwYw1hz-yRFfa0?usp=sharing).
