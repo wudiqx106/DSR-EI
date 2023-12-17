@@ -1,4 +1,4 @@
-# DSR-EI
+# Depth super-resolution from explicit and implicit high-frequency features (DSR-EI)
 This repo is the PyTorch implementation of our paper in CVIU-2023. The algorithm can be used to perform DSR-EI, and its architecture is
 
 ![figure](imgs/architecture.jpg)
